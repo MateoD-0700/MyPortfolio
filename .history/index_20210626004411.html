@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Intro-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title__intro">
+            <span>General Kenobi</span> Hello there!My name is<strong> Mateo Davila</strong>  
+        </h1>
+        
+        
+        
+        <p class="section__subtitle section__subtitle__intro">software engineering student</p>
+        <img src="https://cdn.discordapp.com/attachments/759853913175228470/818688168671838258/me.jpg" class="intro__img">
+    </section>
+
+    <!--Service-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title__services">Skills</h2>
+        <div class="services">
+            <div class="service">
+                <h3>HTML</h3>
+                <i class="fab fa-html5"></i> 
+            </div> <!--/service-->
+
+            <div class="service">
+                <h3>CSS</h3>
+                <i class="fab fa-css3-alt"></i>  
+            </div> <!--/service-->
+
+            <div class="service">
+                <h3>Javascript</h3>
+                <i class="fab fa-js-square"></i>  
+            </div> <!--/service-->   
+
+            
+
+            <div class="service">
+                <h3>React</h3>
+                <i class="fab fa-react"></i>  
+            </div> <!--/service-->
+
+           
+            
+            
+
+        </div> <!--/services--> 
+
+        <a href="#work" class="btn">My work</a>
+    </section>
+
+    <!--About Me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title__about" data-period = "2000" data-type='[ "Programmer.", "I am Creative.", "Full-Stack Enthusiast.", "Critical Thinker." ]'><span class="wrap"></span></h2>
+        <p class="section__subtitle section__subtitle__about">Who I am</p>
+        <div class="about-me__body">
+            <p>Motivated professional offering proficiency in web development combined with strong analytical thinking skills. Personable team player with exceptional customer service abilities. Fast learner and committed to continuous, self-directed learning.</p>
+            <p>I am confident with my skills in object-oriented software design methodologies, user-oriented interface design, C#, Java, Oracle, MS-SQL Server, Unix/Linux, Microsoft's .NET, HTML5/JavaScript/XML, software testing and QA.</p>
+        </div>
+        <img src="https://cdn.discordapp.com/attachments/759853913175228470/824081158186336258/image0.png" class="about-me__img">
+    </section>
+
+    <!--Work Me-->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A look at what I have to offer</p>
+        <div class="portfolio">
+            <!--Portfolio item 01-->
+            <a href="https://assignment-2.mateodavila2.repl.co/" class="portfolio__item" target="_blank">
+                <img src="p1.PNG" class="portfolio__img">
+            </a>
+
+            <!--Portfolio item 01-->
+            <a href="https://online-editor.mateodavilai.repl.co/" class="portfolio__item" target="_blank">
+                <img src="project2.PNG" class="portfolio__img">
+            </a>
+
+            <!--Portfolio item 02-->
+            <a href="#" class="portfolio__item">
+                <img src="/assets/imgs/ps.jpg" class="portfolio__img">
+            </a>
+
+            <!--Portfolio item 03-->
+            <a href="#" class="portfolio__item">
+                <img src="/assets/imgs/ps.jpg" class="portfolio__img">
+            </a>
+
+            <!--Portfolio item 04-->
+            <a href="#" class="portfolio__item">
+                <img src="/assets/imgs/ps.jpg" class="portfolio__img">
+            </a>
+
+            <!--Portfolio item 05-->
+            <a href="#" class="portfolio__item">
+                <img src="/assets/imgs/ps.jpg" class="portfolio__img">
+            </a>
+
+            <!--Portfolio item 06-->
+            <a href="#" class="portfolio__item">
+                <img src="/assets/imgs/ps.jpg" class="portfolio__img">
+            </a>
+
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <a href="mailto:matedavilai@gmail.com" class="footer__link">matedavilai@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/MateoD-0700" target="_blank">
+                    <i class="fab fa-github"></i></a></li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/matedavilai7" target="_blank">
+                    <i class="fab fa-linkedin-in"></i></a></li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="#">
+                    <i class="fab fa-instagram"></i></a></li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.io/" target="_blank">
+                    <i class="fab fa-codepen"></i></a></li>
+        </ul>
+    </footer>
+  <script src="index.js"></script>
+</body>
+</html>
